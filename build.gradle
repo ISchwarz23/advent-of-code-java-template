@@ -1,0 +1,25 @@
+plugins {
+    id "java-library"
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    jupiter_version='5.9.1'
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${jupiter_version}"
+    testImplementation "org.junit.jupiter:junit-jupiter-engine:${jupiter_version}"
+}
+
+tasks {
+    test {
+        useJUnitPlatform()
+    }
+    wrapper {
+        gradleVersion = "7.3"
+    }
+}
