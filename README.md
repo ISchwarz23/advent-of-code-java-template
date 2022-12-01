@@ -2,12 +2,17 @@
 
 In this repository, I'm about to provide solutions for the Advent of Code[^aoc] puzzles using Java.
 
-## Get this Repo for your AoC journey
+## Get this repo for your AoC journey
 
 To get the content of this repo with clean git history, run the following command:
 
 ```
-git clone https://github.com/ISchwarz23/advent-of-code-java-template.git advent-of-code && cd advent-of-code && rm -rf .git && git init && git -am "Initial commit"
+git clone https://github.com/ISchwarz23/advent-of-code-java-template.git advent-of-code \
+  && cd advent-of-code \
+  && rm -rf .git \
+  && git init \
+  && git add . \
+  && git commit -m "Initial commit"
 ```
 
 ## Usage
